@@ -1,6 +1,6 @@
 /*
 ======================================================
-Creating Schemas in the Database
+Creating Datawarehouse Database and Schemas
 ======================================================
 
 Script's Purpose:

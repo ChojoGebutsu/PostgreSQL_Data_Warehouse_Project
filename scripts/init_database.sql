@@ -5,7 +5,7 @@ Creating Datawarehouse Database and Schemas
 
 Script's Purpose:
     This script creates a database named 'datawarehouse' after checking its existence.
-    Besides that, it sets up three schemas - 'bronze', 'silver', and 'gold' - schemas within the database.
+    Besides that, it sets up three schemas - 'bronze', 'silver', and 'gold' - within the database.
 */
 
 -- Drop the 'datawarehouse' database if exists

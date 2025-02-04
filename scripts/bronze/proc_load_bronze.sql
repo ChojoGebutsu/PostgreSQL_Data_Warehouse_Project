@@ -42,7 +42,7 @@ BEGIN
 
         RAISE NOTICE '>> Inserting Data Into: bronze.crm_cust_info';
         COPY bronze.crm_cust_info
-        FROM 'D:\SQL_Projects\SQL_DWH_Project\datasets\source_crm\cust_info.csv'
+        FROM 'D:\SQL_Projects\SQL_DWH_Project\Nemanja\datasets\source_crm\cust_info.csv'
         DELIMITER ','
         CSV HEADER;
         RAISE NOTICE 'Rows inserted: %', (SELECT COUNT(*) FROM bronze.crm_cust_info);
@@ -57,7 +57,7 @@ BEGIN
 
         RAISE NOTICE '>> Inserting Data Into: bronze.crm_prd_info';
         COPY bronze.crm_prd_info
-        FROM 'D:\SQL_Projects\SQL_DWH_Project\datasets\source_crm\prd_info.csv'
+        FROM 'D:\SQL_Projects\SQL_DWH_Project\Nemanja\datasets\source_crm\prd_info.csv'
         DELIMITER ','
         CSV HEADER;
         RAISE NOTICE 'Rows inserted: %', (SELECT COUNT(*) FROM bronze.crm_prd_info);
@@ -72,7 +72,7 @@ BEGIN
 
         RAISE NOTICE '>> Inserting Data Into: bronze.crm_sales_details';
         COPY bronze.crm_sales_details
-        FROM 'D:\SQL_Projects\SQL_DWH_Project\datasets\source_crm\sales_details.csv'
+        FROM 'D:\SQL_Projects\SQL_DWH_Project\Nemanja\datasets\source_crm\sales_details.csv'
         DELIMITER ','
         CSV HEADER;
         RAISE NOTICE 'Rows inserted: %', (SELECT COUNT(*) FROM bronze.crm_sales_details);
@@ -90,7 +90,7 @@ BEGIN
 
         RAISE NOTICE '>> Inserting Data Into: bronze.erp_cust_az12';
         COPY bronze.erp_cust_az12
-        FROM 'D:\SQL_Projects\SQL_DWH_Project\datasets\source_erp\CUST_AZ12.csv'
+        FROM 'D:\SQL_Projects\SQL_DWH_Project\Nemanja\datasets\source_erp\CUST_AZ12.csv'
         DELIMITER ','
         CSV HEADER;
         RAISE NOTICE 'Rows inserted: %', (SELECT COUNT(*) FROM bronze.erp_cust_az12);
@@ -104,7 +104,7 @@ BEGIN
 
         RAISE NOTICE '>> Inserting Data Into: bronze.erp_loc_a101';
         COPY bronze.erp_loc_a101
-        FROM 'D:\SQL_Projects\SQL_DWH_Project\datasets\source_erp\LOC_A101.csv'
+        FROM 'D:\SQL_Projects\SQL_DWH_Project\Nemanja\datasets\source_erp\LOC_A101.csv'
         DELIMITER ','
         CSV HEADER;
         RAISE NOTICE 'Rows inserted: %', (SELECT COUNT(*) FROM bronze.erp_loc_a101);
@@ -118,7 +118,7 @@ BEGIN
 
         RAISE NOTICE '>> Inserting Data Into: bronze.erp_px_cat_g1v2';
         COPY bronze.erp_px_cat_g1v2
-        FROM 'D:\SQL_Projects\SQL_DWH_Project\datasets\source_erp\PX_CAT_G1V2.csv'
+        FROM 'D:\SQL_Projects\SQL_DWH_Project\Nemanja\datasets\source_erp\PX_CAT_G1V2.csv'
         DELIMITER ','
         CSV HEADER;
         RAISE NOTICE 'Rows inserted: %', (SELECT COUNT(*) FROM bronze.erp_px_cat_g1v2);

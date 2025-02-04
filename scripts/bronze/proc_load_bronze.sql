@@ -9,7 +9,7 @@ Script Purpose:
     - Performs the `Full Load` in the form of COPY command to load data from CSV files to Bronze Layer's tables.
 
 Parameters:
-    The  stored procedure doesn't accept any parameters or return any values.
+    The stored procedure doesn't accept any parameters or return any values.
 
 Usage Example:
     CALL bronze.load_bronze();
@@ -135,7 +135,7 @@ BEGIN
 EXCEPTION
     WHEN others THEN
     RAISE NOTICE '=========================================';
-    RAISE NOTICE 'ERROR OCCURED DURING LOADING BRONZE LAYER';
+    RAISE NOTICE 'ERROR OCCURED DURING BRONZE LAYER LOADING';
     RAISE NOTICE 'Error Message: %', SQLERRM;
     RAISE NOTICE 'Error State: %', SQLSTATE;
     RAISE NOTICE '=========================================';

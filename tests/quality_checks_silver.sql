@@ -1,3 +1,22 @@
+/*
+===============================================================================
+Quality Checks
+===============================================================================
+Script Purpose:
+    This script performs various quality checks for data consistency, accuracy, 
+    and standardization across the 'Silver' layer. It includes checks for:
+    - NULL or duplicate primary keys;
+    - Unwanted spaces in string fields;
+    - Data standardization and consistency;
+    - Invalid date ranges and orders;
+    - Data consistency between related fields.
+
+Usage Notes:
+    - Run these checks after loading data into Silver Layer.
+    - Investigate and resolve any discrepancies found during the checks.
+===============================================================================
+*/
+
 -- ====================================================================
 -- Checking 'silver.crm_cust_info'
 -- ====================================================================
@@ -72,7 +91,7 @@ FROM silver.crm_prd_info;
 -- Expectation: No Results
 SELECT
     NULLIF(sls_due_dt, 0) AS sls_due_dt
-FROM bronze.crm_sales_details
+FROM silver.crm_sales_details
 WHERE sls_due_dt <= 0 OR LENGTH(sls_due_dt::TEXT) != 8 OR 
 sls_due_dt > 20500101 OR sls_due_dt < 19000101;
 

@@ -1,4 +1,4 @@
-# Data Catalog for Gold Layer
+# Data Catalogue for Gold Layer
 
 ## Overview
 The Gold Layer is a Business-Level Data Representation, structured to support analytical and reporting use cases. It consists of **dimension tables** and **fact tables** for specific business metrics.

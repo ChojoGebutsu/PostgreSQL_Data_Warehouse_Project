@@ -1,6 +1,6 @@
 # Data Warehouse Naming Conventions
 
-This document outlines the naming conventions for schemas, tables, views, columns, and other objects in the Data Warehouse, ensuring clarity and consistency for all stakeholders. Adhering to these conventions ensures consistency, clarity, and maintainability across the Data Warehouse.
+This document outlines the naming conventions for schemas, tables, views, columns, and other objects in the Data Warehouse, ensuring clarity and consistency for all stakeholders.
 ---
 
 ## Table of Contents

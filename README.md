@@ -68,7 +68,7 @@ The data architecture for this project adheres to the Medallion Architecture, co
 
 ## 📂 Repository Structure
 ```
-SQL_Data_Warehouse_Project/
+PostgreSQL_Data_Warehouse_Solution/
 │
 ├── datasets/ # Raw datasets used for the project (ERP and CRM data)
 │

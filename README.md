@@ -21,7 +21,6 @@ Everything is free!
 - **[Datasets](datasets/)**: Access the project datasets (CSV files).
 - **[PostgreSQL](https://www.postgresql.org/download/)**: Open-source relational database for hosting your data warehouse.
 - **[pgAdmin](https://www.pgadmin.org/)**: GUI for managing and interacting with PostgreSQL databases.
-- **[Notion](https://www.notion.com/)**: All-in-one tool for project management and organization.
 - **[Notion Project Steps](https://shorturl.at/TIc1c)**: Access all project phases and tasks.
 
 ---
@@ -57,11 +56,12 @@ These insights empower stakeholders with critical business metrics, enabling str
 ## 🏗️ Data Architecture
 
 The data architecture for this project adheres to the Medallion Architecture, comprising **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture](docs/data_architecture.png)
-
 1. **Bronze Layer**: Stores raw data in its original form from the source systems. Data is ingested from CSV files into the PostgreSQL database.
 2. **Silver Layer**: Involves data cleansing, standardization, and normalization processes to prepare data for analysis.
 3. **Gold Layer**: Hosts business-ready data modeled into a star schema for reporting and analytics.
+
+![Data Architecture](docs/data_architecture.png)
+
 ---
 
 ---
@@ -73,7 +73,7 @@ SQL_Data_Warehouse_Project/
 ├── datasets/ # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/ # Project documentation and architecture details
-│ ├── etl.png # A diagram created in Draw.io showing ETL techniques and methods
+│ ├── etl.png # A diagram created in Draw.io showing ETL techniques and methods used in this project
 │ ├── data_architecture.png # A diagram created in Draw.io showing the project's architecture
 │ ├── data_catalogue.md # Catalog of datasets, including field descriptions and metadata
 │ ├── data_flow.png # A diagram created in Draw.io for the data flow diagram

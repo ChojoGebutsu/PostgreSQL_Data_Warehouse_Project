@@ -1,6 +1,6 @@
 # Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+Welcome to the **PostgreSQL Data Warehouse Solution** repository! 🚀  
 This project exemplifies a robust data warehousing and analytics solution, encompassing the building of a data warehouse and the generation of actionable insights. Designed as a portfolio piece, it demonstrates industry-leading practices in data engineering and analytics.
 
 ---

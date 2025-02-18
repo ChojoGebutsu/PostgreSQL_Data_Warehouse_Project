@@ -75,6 +75,7 @@ BEGIN
             FROM bronze.crm_cust_info
             ) AS t
         WHERE rn = 1;
+        DELETE FROM silver.crm_cust_info WHERE cst_id IS NULL;
         RAISE NOTICE 'Rows inserted: %', (SELECT COUNT(*) FROM silver.crm_cust_info);
         end_time:= CURRENT_TIMESTAMP;
         RAISE NOTICE '>> Load Duration: % seconds', EXTRACT(EPOCH FROM (end_time - start_time));
@@ -258,4 +259,3 @@ EXCEPTION
 
 END; 
 $$;
-

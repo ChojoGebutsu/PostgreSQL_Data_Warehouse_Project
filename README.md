@@ -73,7 +73,7 @@ PostgreSQL_Data_Warehouse_Solution/
 ├── datasets/ # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/ # Project documentation and architecture details
-│ ├── etl.png # A diagram created in Draw.io showing ETL techniques and methods used in this project
+│ ├── ETL_process.png # A diagram created in Draw.io showing ETL techniques and methods used in this project
 │ ├── data_architecture.png # A diagram created in Draw.io showing the project's architecture
 │ ├── data_catalogue.md # Catalog of datasets, including field descriptions and metadata
 │ ├── data_flow.png # A diagram created in Draw.io for the data flow diagram

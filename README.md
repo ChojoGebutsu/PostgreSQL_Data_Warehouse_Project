@@ -15,7 +15,7 @@ This project encompasses:
 4. **Analytics & Reporting**: Developing SQL-based reports and dashboards to derive actionable insights.
 ---
 
-## 🛠️ Tools & Resources
+## 🛠️ Tools I Used
 
 Everything is free!
 - **[Datasets](datasets/)**: Access the project datasets (CSV files).
